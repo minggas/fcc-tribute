@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Spectral+SC');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spectral SC', serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+.background-light-gray {
+    background-color: #f8f6f6;
+}
+
+.background-dark-gray {
+    background-color: lightgray;
+}
+
+figure {
+    width: 100%;
+}
+
+li img {
+    width: 64px;
+    height: 64px;
+}
+
+.popup-img{
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 6px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.popup:hover ~ .popup-img, .popup:active ~ .popup-img {
+    visibility: visible;
+    opacity: 1;
+}
