@@ -6,3 +6,4 @@ Here i'm using:
 * Bootstrap 4
 * HTML 5
 * CSS 3
+* Font-Awesome 5
